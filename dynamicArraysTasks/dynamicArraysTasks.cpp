@@ -136,10 +136,8 @@ int Task3() {
         if (array[i] % 2 == 0) {
             sum += array[i];
             km2 += 1;
-            cout << array[i] << "\t";
         }
     }
-    cout << endl;
 
     float average = (float)sum/km2;
 
